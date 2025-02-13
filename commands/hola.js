@@ -6,7 +6,7 @@ module.exports = {
         .setDescription('El bot te saluda!'), // Descripción del comando
     async execute(interaction) {
         // Respuesta del bot
-        await interaction.reply('¡Hola! ¿Cómo estás? 😊');
+        await interaction.reply('¡Hola! ¿Cómo estás? 😊 ');
     },
 };
 
