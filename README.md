@@ -2,7 +2,7 @@
 
 ![Ale-Bot](https://your-image-url.com/banner.png)
 
-🚀 **Ale-Bot** es un bot de Discord diseñado para interactuar con la API de Fortnite y brindar funcionalidades útiles a los jugadores.
+🚀 **Ale-Bot** es un bot de Discord desarrollado en **JavaScript** diseñado para interactuar con la API de Fortnite y brindar funcionalidades útiles a los jugadores.
 
 ---
 
@@ -26,7 +26,7 @@ cd Ale-bot
 
 ### 2️⃣ Instalar dependencias
 ```bash
-pip install -r requirements.txt
+npm install
 ```
 
 ### 3️⃣ Configurar variables de entorno
@@ -38,7 +38,7 @@ FORTNITE_API_KEY=tu_api_key_aqui
 
 ### 4️⃣ Ejecutar el bot
 ```bash
-python main.py
+node index.js
 ```
 
 ---
@@ -69,4 +69,6 @@ python main.py
 Si tienes dudas o sugerencias, contáctame en Discord: **Ale-AG03#1234**
 
 🌐 [Repositorio en GitHub](https://github.com/Ale-AG03/Ale-bot)
+
+
 
