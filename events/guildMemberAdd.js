@@ -1,5 +1,6 @@
 const { EmbedBuilder, AttachmentBuilder } = require("discord.js");
 const generateImagen = require("../utils/canvas/welcomelmage");
+const {idCanalpruduccion,idCanalpruevas } = require('./config.json');
 
 module.exports = async (member) => {
     try {
@@ -15,10 +16,10 @@ module.exports = async (member) => {
         }
 
         // Canal de pruebas
-        const welcomeChannelId = '1245454444871549041';
+        // const welcomeChannelId = idCanalpruevas;
 
         // Canal de producción
-        // const welcomeChannelId = '981256465530634242';
+        const welcomeChannelId = idCanalpruduccion;
 
         // Verifica que el canal exista
         const channel = await client.channels.fetch(welcomeChannelId);
